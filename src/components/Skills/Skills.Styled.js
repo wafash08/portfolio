@@ -18,6 +18,9 @@ export const Skill = styled.div`
   @media (max-width: 450px) {
     width: 100%;
   }
+  @media (min-width: 1100px) {
+    width: 20%;
+  }
 `;
 export const Icon = styled.p`
   color: purple;
