@@ -17,7 +17,7 @@ const Article = ({ smallTitle, title, paragraph, testimonial }) => {
       </Heading>
       <Content>
         {testimonial ? (
-          <Paragraph>{testimonial}</Paragraph>
+          <>{testimonial}</>
         ) : (
           <>
             <Paragraph>{paragraph}</Paragraph>

@@ -14,7 +14,7 @@ export const User = styled.div`
   text-align: right;
 `;
 
-export const Small = styled.p`
+export const Small = styled.small`
   display: inline-block;
   color: purple;
 `;
