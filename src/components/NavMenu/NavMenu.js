@@ -1,27 +1,28 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Avatar, Logo, Name, Nav, NavList, NavLink } from "./NavMenu.Styled";
 
 const NavMenu = () => {
   return (
-    <nav>
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/blog">Blog</Link>
-        </li>
-        <li>
-          <Link to="/contact">Contact</Link>
-        </li>
-        <li>
-          <Link to="portfolio">Portfolio</Link>
-        </li>
-        <li>
-          <Link to="/timeline">timeline</Link>
-        </li>
-      </ul>
-    </nav>
+    <Nav>
+      <Logo>
+        <Link to="/">
+          <Avatar />
+        </Link>
+        <Name>Wafa Saefulhaq</Name>
+      </Logo>
+      <NavList>
+        <NavLink to="/">Home</NavLink>
+
+        <NavLink to="/blog">Blog</NavLink>
+
+        <NavLink to="/contact">Contact</NavLink>
+
+        <NavLink to="portfolio">Portfolio</NavLink>
+
+        <NavLink to="/timeline">timeline</NavLink>
+      </NavList>
+    </Nav>
   );
 };
 

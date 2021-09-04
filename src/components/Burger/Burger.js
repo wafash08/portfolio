@@ -1,11 +1,8 @@
 import React from "react";
+import { BurgerButton } from "./Burger.Styled";
 
 const Burger = () => {
-  return (
-    <div>
-      <h1>This is Burger</h1>
-    </div>
-  );
+  return <BurgerButton>Burger Button</BurgerButton>;
 };
 
 export default Burger;
